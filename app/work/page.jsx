@@ -30,6 +30,17 @@ const projects = [
   {
     num: "02",
     category: "FullStack",
+    title: "Task Manager App",
+    description:
+      "Built a Task Manager app using Next.js and SQLite, enabling users to add, edit, delete, and mark tasks as completed, with due dates. Data is stored on Turso, and user authentication is provided via Google or GitHub. This project showcases expertise in full-stack development and secure data handling.",
+    stack: [{ name: "Next.js" }, { name: "SQL Lite" }, { name: "Turso" }],
+    image: "/assets/work/bg5.png",
+    live: "https://task-manager-khaki-nu.vercel.app/sign-in",
+    github: "https://github.com/vikashbisht/task-manager",
+  },
+  {
+    num: "03",
+    category: "FullStack",
     title: "E-book App",
     description:
       "Designed and implemented a secure eBook store web application using the MERN stack (MongoDB, Express.js,React, Node.js) with user authentication to restrict course access to authorized users.Deployed the application on a cloud platform, achieving high availability, scalability, and optimized performance.",
@@ -39,7 +50,7 @@ const projects = [
     github: "https://github.com/vikashbisht/BookApp",
   },
   {
-    num: "03",
+    num: "04",
     category: "Wordpress",
     title: "Fashion Store",
     description:
@@ -48,6 +59,17 @@ const projects = [
     image: "/assets/work/bg3.png",
     live: "https://letscheckthiswebsite.lovestoblog.com/",
     github: "https://letscheckthiswebsite.lovestoblog.com/",
+  },
+  {
+    num: "05",
+    category: "Python Automation",
+    title: "SpotiCharts",
+    description:
+      "Designed and implemented an interactive GUI application using Tkinter and Spotipy libraries, offering users an intuitive platform. Integrated Spotify API to dynamically retrieve and showcase the top 100 Billboard songs for any specified week, enabling seamless exploration and enjoyment of trending music.",
+    stack: [{ name: "Python" }, { name: "Spotipy API" }, { name: "Tkinter" }],
+    image: "/assets/work/bg6.png",
+    live: "https://github.com/vikashbisht/Resume_Projects/tree/main/BillBoard_Finder",
+    github: "https://github.com/vikashbisht/Resume_Projects/tree/main/BillBoard_Finder",
   },
 ];
 const Work = () => {
